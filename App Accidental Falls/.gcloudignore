@@ -1,0 +1,20 @@
+# Ignorar el entorno virtual
+venv/
+
+# Ignorar archivos de control de versiones
+.git
+.gitignore
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Archivos de configuración y caché del sistema operativo
+.DS_Store
+.idea/
+.vscode/
+
+# Ignorar archivos de configuración de Python (si no son necesarios para el despliegue)
+setup.cfg
+*.egg-info/
